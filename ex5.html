@@ -32,10 +32,12 @@
 
             document.getElementById('resultado').innerHTML = " "
             var comprimento = document.getElementById("compri").value
+            const comprimentoFormat = comprimento.replaceAll(',','.')
             // alert (comprimento)
             var largura = document.getElementById("larg").value
+            const larguraFormat = largura.replaceAll(',','.') 
 
-            var total = (comprimento * largura) * valor
+            var total = (comprimentoFormat * larguraFormat) * valor
             // alert (total)
 
 
