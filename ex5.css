@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin:auto;
+    padding: auto;
+    /* border: solid 2px black; */
+    width: 270px;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+label {
+    margin-left: 35%;
+    padding: 1%;
+    height: 270px;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+button {
+    background-color: transparent;
+    width: 100px;
+    border-radius: 15px;
+}
+
+h3 {
+    width: 200px;
+    padding: auto;
+    margin: auto;
+    /* border: 2px #6bb39b solid; */
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+h1 {
+    width: 150px;
+    padding: auto;
+    margin: auto;
+    /* border: 2px #6bb39b solid; */
+    margin-top: 2%;
+    font-size: 25px;
+}
